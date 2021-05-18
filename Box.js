@@ -6,7 +6,7 @@ var options ={
         this.body = Bodies.rectangle(x,y,width,height,options);
         this.width=width;
         this.height=height;
-        World.add(myworld,this.body);
+        World.add(world,this.body);
     }
 
     display(){
